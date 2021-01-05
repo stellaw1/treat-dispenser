@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tymora-dev-133202-authRole",
+      "UnauthRoleArn": "arn:aws:iam::150113868179:role/amplify-tymora-dev-133202-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::150113868179:role/amplify-tymora-dev-133202-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-tymora-dev-133202-deployment",
+      "UnauthRoleName": "amplify-tymora-dev-133202-unauthRole",
+      "StackName": "amplify-tymora-dev-133202",
+      "StackId": "arn:aws:cloudformation:us-west-2:150113868179:stack/amplify-tymora-dev-133202/76c342e0-4f9d-11eb-a954-028e443deac3",
+      "AmplifyAppId": "d1ys71om64uyj0"
+    }
+  }
+}
