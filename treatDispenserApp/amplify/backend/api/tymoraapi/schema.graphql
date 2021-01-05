@@ -1,0 +1,17 @@
+type Goal @model {
+  id: ID!
+  name: String!
+  description: String
+  type: GoalType
+  targetValue: Int
+  interval: Int # How long the goal has to be completed?
+  repeat: Int # Placeholder for now. 0 for no repeat, everything else in days?
+  # What else? Color? Icon?
+  # TODO: set up users and authentication https://docs.amplify.aws/cli/graphql-transformer/directives#auth
+}
+
+enum GoalType {
+  INTERNAL # Goals that are tracked in the app
+  EXTERNAL # Goals that poll outside sources for status (read: accountability). For example, fitness APIs for step count
+}
+
